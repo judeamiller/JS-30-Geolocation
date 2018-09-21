@@ -9,5 +9,5 @@ navigator.geolocation.watchPosition((data)=>{
   arrow.style.transform = `rotate(${data.coords.heading}deg)`;
 }, (err) => {
   console.err(err);
-  alert('You need to allow location services for this to work.')
+  alert('You need to allow location services for this to work.');
 });
